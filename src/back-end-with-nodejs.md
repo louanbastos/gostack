@@ -16,7 +16,7 @@
 
 `node index.js`
 
-## Configuring Nodemon (auto server refresh)
+## Configuring Nodemon (auto server refresh) in developer mode `-D`
 
 `yarn add nodemon -D`
 
@@ -42,3 +42,5 @@
 ## Req and Request are the same thing, as well as Res and Response
 
 `req == require` and `res == response`
+
+<span style="color:blue">some _blue_ text</span>.
