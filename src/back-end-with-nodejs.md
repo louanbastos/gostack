@@ -42,5 +42,3 @@
 ## Req and Request are the same thing, as well as Res and Response
 
 `req == require` and `res == response`
-
-<span style="color:blue">some _blue_ text</span>.
