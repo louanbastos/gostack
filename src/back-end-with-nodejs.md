@@ -42,14 +42,3 @@
 ## Req and Request are the same thing, as well as Res and Response
 
 `req == require` and `res == response`
-
-[CLICK ME][identifier]{: #custom-id onclick="myJsFunc();"}
-
-<script type="text/javascript">
-  function myJsFunc() {
-  var answer = confirm ("Please click on OK to continue.")
-  if (answer)
-  window.location="#";
-  }
-</script>
-<h4 class="blue" id="blue-h">A blue heading</h4>
