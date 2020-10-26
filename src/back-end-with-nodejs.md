@@ -52,3 +52,4 @@
   window.location="#";
   }
 </script>
+<h4 class="blue" id="blue-h">A blue heading</h4>
