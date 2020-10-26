@@ -1,34 +1,34 @@
 # Backend with Node.js
 
-> Comment lines
+## Comment lines
 
 `Shift + Alt + A`
 
-> Init a project using Yarn
+## Init a project using Yarn
 
 `yarn init -y`
 
-> Add Express.js into the project
+## Add Express.js into the project
 
 `yarn add express`
 
-> Execute the project
+## Execute the project
 
 `node index.js`
 
-> Configuring Nodemon (auto server refresh)
+## Configuring Nodemon (auto server refresh)
 
 `yarn add nodemon -D`
 
-> Execute Nodemon project
+## Execute Nodemon project
 
 `yarn nodemon src/index.js`
 
-> Execute Nodemon project if `dev mode` are enable on package.json
+## Execute Nodemon project if `dev mode` are enable on package.json
 
 `yarn nodemon`
 
-> Example package.json with nodemon and dev mode
+## Example package.json with nodemon and dev mode
 
 ```json
 {
@@ -39,6 +39,6 @@
 }
 ```
 
-> Req and Request are the same thing, as well as Res and Response
+## Req and Request are the same thing, as well as Res and Response
 
 `req == require` and `res == response`
