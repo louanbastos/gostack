@@ -18,7 +18,7 @@ app.delete("/projects/:id", (request, response) => {
   return res.json(["Project02", "Project03"]);
 });
 
-app.listen(3333, () => {
+var listener = app.listen(3333, () => {
   console.clear();
-  console.log("🚀 Backend Started");
+  console.log(`🚀 Backend Started on Port: ${listener.address().port}`);
 });
