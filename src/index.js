@@ -20,6 +20,5 @@ app.delete("/projects/:id", (request, response) => {
 
 var listener = app.listen(3333, () => {
   console.clear();
-  console.log("A Rocketseat App");
   console.log(`🚀 Backend Started on Port: ${listener.address().port}`);
 });
